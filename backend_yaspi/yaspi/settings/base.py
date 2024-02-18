@@ -64,7 +64,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'yaspi.wsgi.application'
+WSGI_APPLICATION = 'yaspi.wsgi.app'
 
 
 # Database

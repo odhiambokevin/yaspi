@@ -2,7 +2,7 @@ from .base import *
 
 DEBUG = False
 
-ALLOWED_HOSTS = ['.vercel.app']
+ALLOWED_HOSTS = ['yaspi-be.vercel.app']
 
 CORS_ALLOWED_ORIGINS = ["yaspikenya.com", "https://portfolio-sigma-two-34.vercel.app"]
 CORS_ALLOWED_METHODS = ["DELETE","GET","OPTIONS","PATCH","POST","PUT",]
