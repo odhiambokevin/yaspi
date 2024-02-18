@@ -4,7 +4,7 @@ DEBUG = False
 
 ALLOWED_HOSTS = ['yaspi-be.vercel.app']
 
-CORS_ALLOWED_ORIGINS = ["yaspikenya.com", "yaspi.vercel.app"]
+CORS_ALLOWED_ORIGINS = ["yaspikenya.com", "http://yaspi.vercel.app"]
 CORS_ALLOWED_METHODS = ["DELETE","GET","OPTIONS","PATCH","POST","PUT",]
 
 # HTTPS SETTINGS
