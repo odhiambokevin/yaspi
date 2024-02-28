@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import { NavLink, Link, useLocation } from 'react-router-dom'
+import { NavLink, useLocation } from 'react-router-dom';
 
 function Header() {
     
@@ -24,7 +24,7 @@ function Header() {
         <header id="header">
             <div className="container">
                 <div className="row">
-                    <div className="col-sm-12">
+                    <div className="col-sm-12 navmain">
                         <button type="button" className="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-menu">
                             <span className="sr-only">Toggle navigation</span>
                             <span className="fa fa-bars"></span>
@@ -33,7 +33,7 @@ function Header() {
                         </button>
                         <div className="logo-nav floating-logo">
                             <NavLink reloadDocument to="/" >
-                                <img src="static/images/logo.png" alt="Company logo" style={{height: "100px"}} />
+                                <img src="static/images/logo.png" alt="Company logo"  />
                             </NavLink>
                         </div>
                         <div className="clear-toggle"></div>

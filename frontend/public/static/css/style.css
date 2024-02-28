@@ -797,7 +797,10 @@ section {
 
 .logo-nav {
     float: left;
-    line-height: 60px;
+    padding: 0 0 0 150px;
+}
+.logo-nav img {
+    height: 100px;
 }
 
 
@@ -3117,9 +3120,18 @@ footer {
     }
 }
 
-@media (max-width: 768px) {
-    .thumnail-img {
-        width: 50%;
+
+@media (max-width: 768px) and (max-width: 1200px) {
+    
+    .logo-nav {
+        float: none;
+    }
+    .logo-nav img {
+        float: right;
+        height: 50px;
+    }
+    #skills {
+        display: none;
     }
 }
 
