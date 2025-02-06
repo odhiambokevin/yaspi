@@ -12,7 +12,7 @@ const Skills = () => {
                         <div className="col-sm-3 col-md-3 col-lg-3 pie-chart-main">
                             
                             <h4>precision agriculture</h4>
-                            <p>Leveraging spatial tools to optimize output for commercial farm</p>
+                            <p>Leveraging spatial tools to optimize output for commercial farms</p>
                         </div>
 
                         <div className="col-sm-3 col-md-3 col-lg-3 pie-chart-main">
