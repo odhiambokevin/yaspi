@@ -6,7 +6,7 @@ function Footer() {
         <div className="container">
             <div className="row">
                 <div className="col-md-6 col-sm-6 col-xs-6">
-                    <div className="copyright"><p>Copyright © 2016 All Rights reserved by: <Link to="http://templatestock.co">Template Stock</Link>
+                    <div className="copyright"><p>Copyright © 2025: <Link to="http://templatestock.co" className="copyright2">yaspi</Link>
                   </p></div>
                 </div>
                

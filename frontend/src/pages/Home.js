@@ -14,7 +14,7 @@ function Home() {
         <Skills />
         {/* <Services /> */}
         <Contact />
-        <Link to="home" spy={true} smooth={true} offset={-10} duration={1500} className="scrollup"> <i className="fa fa-chevron-up"> </i> </Link>
+        <Link to="home" spy={true} smooth={true} offset={-10} duration={1500} className="scrollup"> <i className="fa fa-chevron-up chevron-color"> </i> </Link>
         </>
      );
 }

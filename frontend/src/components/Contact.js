@@ -102,7 +102,7 @@ const Contact = () => {
                                         <textarea name='message' required value={formData.message} onChange={handleChange} className="form-control" id="message" rows="7" placeholder="Your Message"></textarea>}
                                     </div>
                                     <div className="col-md-12 text-right">
-                                        <button onClick={sendEmail} type="submit" className="btn btn-green">SEND MESSAGE</button>
+                                        <button onClick={sendEmail} type="submit" className="btn btn-red-cst">SEND MESSAGE</button>
                                     </div>
                                 </div>
                                 
