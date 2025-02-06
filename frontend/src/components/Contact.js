@@ -64,8 +64,8 @@ const Contact = () => {
                     <div className="col-md-8 col-md-offset-2 contact-form">
                         
                             <div className="contact-info text-center">
-                            <p><i className="fa fa-phone"></i>   123 456</p>
-                            <p><i className="fa fa-place"></i>   Silhouette Silk Plaza, 4th Floor </p>
+                            <p><i className="fa fa-phone"></i>   +254712 725912</p>
+                            <p><i className="fa fa-place"></i>   25 Silhouette Silk, Limuru Road</p>
                             {formData.status === 'success' && 
                             <Snackbar
                             message="Sent Successfully"
