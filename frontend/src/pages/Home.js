@@ -12,7 +12,7 @@ function Home() {
         <Homeheader />
         <Portfolio />
         <Skills />
-        <Services />
+        {/* <Services /> */}
         <Contact />
         <Link to="home" spy={true} smooth={true} offset={-10} duration={1500} className="scrollup"> <i className="fa fa-chevron-up"> </i> </Link>
         </>

@@ -1912,7 +1912,7 @@ ul.timeline {
 #skills {
     text-align: center;
     padding: 100px 0px 0px;
-    background: url(../images/parallax/skills.jpg) no-repeat;
+    background: url(../images/parallax/drone3.jpg) no-repeat;
 }
 
 .pie-chart-main {
@@ -3020,7 +3020,7 @@ li.comment ol.comment-sub {
 /*-----------------------------------------------------------------*/
 
 #contact {
-	background:url(../images/parallax/contact.jpg) no-repeat;
+	background:url(../images/parallax/drone3.jpg) no-repeat;
 }
 
 .contact-form {
@@ -3130,9 +3130,9 @@ footer {
         float: right;
         height: 50px;
     }
-    #skills {
+    /* #skills {
         display: none;
-    }
+    } */
 }
 
 @media (max-width: 550px) {

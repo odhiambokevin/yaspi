@@ -6,39 +6,31 @@ const Skills = () => {
                 <div className="row">
 
                     <div className="title-box text-center white">
-                        <h2 className="title">Technical Skills</h2>
+                        <h2 className="title">what we do</h2>
                     </div>
 
                         <div className="col-sm-3 col-md-3 col-lg-3 pie-chart-main">
-                            <span className="pie-chart " data-percent="87">
-                                <span className="percent"></span>
-                            </span>
-                            <h4>Enterprise-Level Database</h4>
-                            <p>Database management customized for optimization and results delivery</p>
+                            
+                            <h4>precision agriculture</h4>
+                            <p>Leveraging spatial tools to optimize output for commercial farm</p>
                         </div>
 
                         <div className="col-sm-3 col-md-3 col-lg-3 pie-chart-main">
-                            <span className="pie-chart" data-percent="80">
-                                <span className="percent"></span>
-                            </span>
+                           
                             <h4>Network Analysis</h4>
                             <p>Mapping interactions on networks with focus on influences of processes</p>
                         </div>
 
                         <div className="col-sm-3 col-md-3 col-lg-3 pie-chart-main">
-                            <span className="pie-chart " data-percent="86">
-                                <span className="percent"></span>
-                            </span>
-                            <h4>Defined Modelling</h4>
+                            
+                            <h4>Spatial Modelling</h4>
                             <p>Multiperspective approach to designing models</p>
                         </div>
 
                         <div className="col-sm-3 col-md-3 col-lg-3 pie-chart-main">
-                            <span className="pie-chart" data-percent="95">
-                                <span className="percent"></span>
-                            </span>
-                            <h4>Integrated Image Analytics</h4>
-                            <p>Contextualization of dynamics during image analysis</p>
+                           
+                            <h4>Integrated Analytics</h4>
+                            <p>Contextualization of dynamics for results-oriented analysis</p>
                         </div>
 
                 </div>

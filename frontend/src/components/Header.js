@@ -41,8 +41,8 @@ function Header() {
                             <ul className="nav">
                                 <li> <NavLink className='' to="/#home">Home</NavLink> </li>
                                 <li> <NavLink className='' to="/#works">Portfolio</NavLink></li>
-                                <li> <NavLink className='' to="/#services">Our Specialization</NavLink> </li>
-                                <li> <NavLink to='/blogs'>blog</NavLink></li>
+                                <li> <NavLink className='' to="/#skills">what we do</NavLink> </li>
+                                {/* <li> <NavLink to='/blogs'>blog</NavLink></li> */}
                                 <li> <NavLink className='' to="/#contact">contact</NavLink></li>
                                 {/* <li className={splitLocation[1] === '#contact' ? 'active' : ''}> <Link  to="/#contact">contact</Link></li> */}
                             </ul>
