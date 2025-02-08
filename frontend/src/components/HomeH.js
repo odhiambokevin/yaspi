@@ -60,35 +60,23 @@ const Homeheader = () => {
             <div className="slider-overlay"></div>
             <div className="flexslider">
                 <ul className="slides scroll">
-                  {/* {banners.map((banner, index)=>( */}
-                  <AnimatePresence>
-                    <li
-                   
-                    >
-                        <div className="slider-text-wrapper"
-                        
-                        >  
-                            <motion.div className="container"
-                             animate={{x: 0}} 
-                        transition={{duration: 0.8}}
-                        exit={{x: "101vw"}} key={banners[index].id}
-                    initial={{x: '-101vw'}}>
-                                <div className="big">{banners[index].heading}</div>          
-                                <div className="small">{banners[index].description}</div>
+                 
+                    <li className='first'>
+                        <div className="slider-text-wrapper">  
+                            <div className="container">
+                                <div className="big">spatial intelligence</div>          
+                                
                                 <Link className="middle btn btn-white" to="works"
                                 spy={true} smooth={true}
                                 offset={-10} duration={1500}>VIEW PORTFOLIO</Link>
-                            </motion.div>       
+                            </div>       
                         </div>
                        
-                        <motion.img  animate={{x: 0}} 
-                        transition={{duration: 0.8}}
-                        exit={{x: "-101vw"}} key={banners[index].id}
-                    initial={{x: '101vw'}} src={banners[index].image} alt="" />
+                        <img className='' src="static/images/parallax/drone3.jpg" alt="" />
                        
                     </li>
-                    </AnimatePresence>
-                    {/* ))} */}
+                    
+                   
                 </ul>
             </div>
         </section>

@@ -17,7 +17,7 @@ const Skills = () => {
 
                         <div className="col-sm-3 col-md-3 col-lg-3 pie-chart-main">
                            
-                            <h4>Network Analysis</h4>
+                            <h4>Spatial Intelligence</h4>
                             <p>Mapping interactions on networks with focus on influences of processes</p>
                         </div>
 
