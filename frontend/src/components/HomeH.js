@@ -56,7 +56,7 @@ const Homeheader = () => {
     }, [index]);
 
     return ( 
-        <section id="home" className="home">
+        <section id="home" className="home" style={{backgroundColor:'black'}}>
             <div className="slider-overlay"></div>
             <div className="flexslider">
                 <ul className="slides scroll">
@@ -72,7 +72,7 @@ const Homeheader = () => {
                             </div>       
                         </div>
                        
-                        <img className='' src="static/images/parallax/drone3.jpg" alt="" />
+                        <img src="static/images/parallax/drone_wbg.png" alt="" />
                        
                     </li>
                     
