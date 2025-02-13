@@ -5,9 +5,36 @@ import {allWorks} from '../state/slices/worksSlice';
 import {motion} from 'framer-motion';
 
 const Works = ()=> {
-    const {works} = useSelector((state)=>state.works);
+    // const {works} = useSelector((state)=>state.works);
+    const works = [
+        {
+            id:1,
+            'image':'static/images/works/conserve.jpg',
+            'title':'ave',
+            'category':'biodiversity'
+        },
+        {
+            id:2,
+            'image':'static/images/works/drought.jpg',
+            'title':'ave',
+            'category':'agriculture'
+        },
+        {
+            id:3,
+            'image':'static/images/works/wetland.jpg',
+            'title':'ave',
+            'category':'water'
+        },
+        {
+            id:4,
+            'image':'static/images/works/company.jpg',
+            'title':'ave',
+            'category':'facility'
+        },
+    ]
+
     const [filtered, setFiltered] = useState(works);
-    const [activeWork, setActiveWork] = useState('all');
+    const [activeWork, setActiveWork] = useState('biodiversity');
     const dispatch = useDispatch();
     useEffect(()=>{
         dispatch(allWorks())
@@ -34,7 +61,6 @@ const Works = ()=> {
 
           <div className=" col-md-12 text-center">
               <ul className="filtering">
-                  <li className={activeWork === 'all' ? "filter active":"filter"} onClick={()=>setActiveWork('all')}>All</li>
                   <li className={activeWork === 'biodiversity' ? "filter active":"filter"} onClick={()=>setActiveWork('biodiversity')}>Biodiversity</li>
                   <li className={activeWork === 'agriculture' ? "filter active":"filter"} onClick={()=>setActiveWork('agriculture')}>Agronomy</li>
                   <li className={activeWork === 'water' ? "filter active":"filter"} onClick={()=>setActiveWork('water')}>Water</li>
