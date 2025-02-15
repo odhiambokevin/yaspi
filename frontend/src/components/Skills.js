@@ -22,16 +22,18 @@ const Skills = () => {
                         </div>
 
                         <div className="col-sm-3 col-md-3 col-lg-3 pie-chart-main">
-                            
-                            <h4>Spatial Modelling</h4>
-                            <p>Multiperspective approach to designing models</p>
+                           
+                            <h4>Technical Advising</h4>
+                            <p>Contextualization of dynamics for results-oriented analysis</p>
                         </div>
 
                         <div className="col-sm-3 col-md-3 col-lg-3 pie-chart-main">
-                           
-                            <h4>Integrated Analytics</h4>
-                            <p>Contextualization of dynamics for results-oriented analysis</p>
-                        </div>
+                            
+                            <h4>Digital Products</h4>
+                            <p>platform design and modernization by digitizing core buisness proceeses</p>
+                        </div>r
+
+                        
 
                 </div>
                 </div>
